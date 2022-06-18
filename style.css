@@ -1,0 +1,184 @@
+.bg-custom {
+  background-color: #3d1d05;
+}
+
+.bg-container {
+  background-color: #fad19b;
+  color: #3d1d05;
+}
+
+.bg-catalog {
+  background: rgb(250,209,155);
+  background: linear-gradient(360deg, rgba(250,209,155,1) 42%, rgba(61,29,5,1) 100%); 
+}
+
+.catalog-letter-color {
+  color: rgb(237, 191, 131);
+}
+
+.card-color {
+color: #3d1d05;
+}
+
+.bg-singin {
+  background: rgb(61,29,5);
+  background: linear-gradient(360deg, rgba(61,29,5,1) 0%, rgba(250,209,155,1) 49%); 
+}
+
+.nav-list-custom {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list-custom, li {
+  flex-grow: 1;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  justify-content: end;
+  align-content: end;
+  min-height: 100vh;
+} 
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: rgb(156, 155, 155);
+}
+
+.footer-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.footer-container h2 {
+  position: relative;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.footer-container h2::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: rgb(29, 29, 138);
+}
+
+.footer-container p {
+  color: white;
+}
+
+.sec-about-icons {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-gap: 10px;
+}
+
+.sec-about-icons li {
+  list-style: none;
+}
+
+.sec-about-icons li a {
+display: inline-block;
+width: 48px;
+height: 48px;
+background: rgb(171, 169, 169);
+display: grid;
+align-content: center;
+justify-content: center;
+text-decoration: none;
+border-radius: 4px;
+}
+
+.sec-about-icons li a:hover {
+  background: rgb(196, 195, 195);
+}
+
+.sec-about-icons li a .bi {
+color: #fff;
+font-size: 20px;
+}
+
+.sec-quicklinks {
+  position: relative;
+}
+
+.sec-quicklinks li {
+  list-style: none;
+}
+
+.sec-quicklinks li a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.sec-quicklinks li a:hover {
+  color: blue;
+}
+.sec-shop {
+  position: relative;
+}
+
+.sec-shop li {
+  list-style: none;
+}
+
+.sec-shop li a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.sec-shop li a:hover {
+  color: blue;
+}
+
+.sec-info {
+  position: relative;
+}
+
+.sec-info li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 16px;
+}
+
+.sec-info li span:nth-child(1) {
+  color: white;
+  font-size: 20px;
+}
+
+.sec-info li span {
+  color: white;
+}
+
+.sec-info a {
+  color: white;
+  text-decoration: none;
+}
+.sec-info a:hover {
+  color: blue;
+}
